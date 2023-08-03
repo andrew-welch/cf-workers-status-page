@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.a-w.au' # used for Slack messages
+  url: 'https://status.a-w.au' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -55,10 +55,18 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: www-ccicalculator.com
+  - id: www-ccicalculator-com
     name: CCICalculator
     description: 'Calculate your project finances.'
     url: 'https://ccicalculator.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: www-pixieset-com
+    name: PixieSet
+    description: 'Pixieset service'
+    url: 'https://andrewwelchphotography.pixieset.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
