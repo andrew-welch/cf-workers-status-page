@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://status-page.a-w.au' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -37,3 +37,12 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+
+  - id: www-andrewwelch-au
+    name: andrewwelch.au
+    description: 'AW Home Page.'
+    url: 'https://andrewwelch.au'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
