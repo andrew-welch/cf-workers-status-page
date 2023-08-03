@@ -46,3 +46,19 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: www-awphotography-au
+    name: Andrew Welch Photography
+    description: 'AW Photography Website.'
+    url: 'https://awphotography.au'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: www-ccicalculator.com
+    name: CCICalculator
+    description: 'Calculate your project finances.'
+    url: 'https://ccicalculator.com'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
