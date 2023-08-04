@@ -39,11 +39,3 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: www-pixieset-com
-    name: PixieSet
-    description: 'Pixieset service'
-    url: 'https://andrewwelchphotography.pixieset.com/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
