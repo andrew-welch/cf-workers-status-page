@@ -27,7 +27,7 @@ monitors:
   - id: www-awphotography-au
     name: Andrew Welch Photography
     description: 'AW Photography Website.'
-    url: 'https://awphotography.au'
+    url: 'https://www.awphotography.au'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
