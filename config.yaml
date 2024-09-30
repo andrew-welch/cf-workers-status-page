@@ -24,10 +24,10 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: www-awphotography-au
+  - id: www-andrewwelchphotography-com-au
     name: Andrew Welch Photography
     description: 'AW Photography Website.'
-    url: 'https://www.awphotography.au'
+    url: 'https://www.andrewwelchphotography.com.au'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
